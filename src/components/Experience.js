@@ -9,6 +9,7 @@ import graphql from '../assets/graphql.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import express from '../assets/express.png';
+import node from '../assets/node.png';
 
 const Experience = () => {
   const techs = [
@@ -66,12 +67,18 @@ const Experience = () => {
       title: 'Express',
       style: 'shadow-gray-400',
     },
+    {
+      id: 10,
+      src: node,
+      title: 'Node',
+      style: 'shadow-gray-400',
+    },
   ];
 
   return (
     <div
       name='experience'
-      className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'
+      className='bg-gradient-to-b from-gray-800 to-black w-full h-auto clear-bo'
     >
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div>
@@ -93,6 +100,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
+      <div className='clear-both'></div>
     </div>
   );
 };
