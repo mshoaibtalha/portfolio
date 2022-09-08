@@ -65,13 +65,13 @@ const Experience = () => {
       id: 9,
       src: express,
       title: 'Express',
-      style: 'shadow-gray-400',
+      style: 'shadow-yellow-400',
     },
     {
       id: 10,
       src: node,
       title: 'Node',
-      style: 'shadow-gray-400',
+      style: 'shadow-green-400',
     },
   ];
 
@@ -86,7 +86,8 @@ const Experience = () => {
             Experience
           </p>
           <p className='py-6 mt-4'>
-            These are the technologies I've worked with
+            I am familiar with the following technologies, and I am always
+            looking forward to learn more:
           </p>
         </div>
 

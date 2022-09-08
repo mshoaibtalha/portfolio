@@ -12,9 +12,8 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className='text-black-500 py-4 max-w-md'>
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            A business graduate turned software developer. I am driven by
+            problem solving, teamwork and continuous improvement.
           </p>
 
           <div>
