@@ -7,13 +7,13 @@ const About = () => {
       className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'
     >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-cyan-500'>
+        <div className='pb-2 mt-10 '>
+          <p className='text-4xl font-bold inline border-b-4 border-cyan-500 '>
             About
           </p>
         </div>
 
-        <p className='text-xl mt-20'>
+        <p className='text-xl mt-10'>
           After years of working in field of IT as supply Chain Manager and
           Technician , I've decided to turn my hobby into a full-time job and
           succeeded in securing a spot at Salt's JavaScript bootcamp. I was
